@@ -4,16 +4,16 @@ Fibonacci-
 Euler Project - Problem 2
 
 print "Fibonacci Sequence"
-my_list = [x for x in range(1,11)]
-fib_list = []
-fib = 0
-for x in my_list:
-  if (my_list[index] % 3 == 0):
-    fib = my_list[index-2] + my_list[index-1]
-    fib_list.append(fib)
-    print fib_list
-    #add every third index to the list
-  else: 
-    fib_list.append(x)
-    print fib_list
+fib = [0,1]
+fib2 = [0,1]
+sum = 0
+if sum < 400:
+  sum = fib[0] + fib[1]
+	fib2.append(sum)
+	fib[0] = sum
+	sum = fib[0] + fib[1]
+	fib2.append(sum)
+	fib[1] = sum
+	print fib2
+
     

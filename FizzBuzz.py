@@ -1,4 +1,4 @@
-* 3 - Fizz 5 - Buzz 3 & 5 - FizzBuzz*
+# 3 - Fizz 5 - Buzz 3 & 5 - FizzBuzz
 
 for i in range(1,101): 
 if i % 3 == 0 and i % 5 == 0: 
